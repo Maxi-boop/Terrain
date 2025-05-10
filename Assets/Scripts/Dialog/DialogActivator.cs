@@ -26,15 +26,16 @@ public class DialogActivator : MonoBehaviour, IInteractable
     }
     public void Interact(Player player)
     {
-        player.setFrozen(true);
         if (!interactedAlready && gameObject.CompareTag("Enemy"))
         {
             interactedAlready = true;
+            player.setFrozen(true);
             player.DialogueUI.ShowDialogue(dialogueObject);
 
         } 
         else if(!gameObject.CompareTag("Enemy"))
         {
+            player.setFrozen(true);
             player.DialogueUI.ShowDialogue(dialogueObject);
         }
     }

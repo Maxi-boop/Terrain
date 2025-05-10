@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
     public DialogueUI DialogueUI => dialogueUI;
     private SpriteRenderer spriteRenderer;
     public IInteractable Interactable { get;  set; }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); 
@@ -68,6 +69,7 @@ public class Player : MonoBehaviour
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
                 rb.velocity = Vector2.up * jumpForce;
+                AudioSource.PlayClipAtPoint(jumpSFX, transform.position, 1f);
             }
             if (Input.GetKey(KeyCode.Space) && isJumping == true)
             {
