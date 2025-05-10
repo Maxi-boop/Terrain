@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1330c97777f7864eb24c7b3b5afbb6f, type: 3}
+  m_Name: BeginningSpeech
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Wow! Is that really you?
+  - You've grown so much from the last time I seen you, haven't you!
+  - You're so big now! My god, do you remember me?
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: c047b0deb2d0c604da1579ad384f70f4, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 7937583d9b4271e4583cc40fa75e720c, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1330c97777f7864eb24c7b3b5afbb6f, type: 3}
+  m_Name: Inital Dialogue
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Yo Kid! Trying to act all tough by passing by without saying hello?
+  - Well if that's the case, solve one of my math riddles. This one is tough. Be
+    careful though.
+  - If you get it wrong you may lose a heart!
+  - What is 7 * 7 ? [THIS IS A SAMPLE]
+  responses:
+  - responseText: 49
+    dialogueObject: {fileID: 11400000, guid: c6c426c81d54b84448b72dbd36d3ec4b, type: 2}
+  - responseText: 70
+    dialogueObject: {fileID: 11400000, guid: fcf6a5b96b981854c80241921646359a, type: 2}
+  - responseText: 14
+    dialogueObject: {fileID: 11400000, guid: 26e3769181b0e6d4bae065ddf993ec46, type: 2}
+  wrongAnswer: 0

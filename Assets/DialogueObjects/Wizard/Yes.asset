@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1330c97777f7864eb24c7b3b5afbb6f, type: 3}
+  m_Name: Yes
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Really! That's amazing! I'm so proud of you man. I wisb I could be just like
+    you.
+  - Being able to explore the world, solve mysteries, and do so much more.
+  - Hey! Do you want to become buddies?
+  - I know its abrupt, but I really want to do more with my life.
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 0628068f283ab6d4fa1c4f42e2c6fd59, type: 2}
+  wrongAnswer: 0
